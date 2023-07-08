@@ -5,8 +5,9 @@ body{
 /*Nav Related Styles*/
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 ul{
     display: flex;
@@ -36,4 +37,18 @@ nav a{
     color: white;
     font-weight: 700;
     padding: 15px 35px;      
+}
+/*Header Area*/
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profile-picture{
+    width: 500px;
+    
 }
